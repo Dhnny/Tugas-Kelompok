@@ -1,0 +1,71 @@
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0 15% 0;
+}
+
+header{
+margin-top: 0;
+padding: 3em 1em 2em 1em;
+text-align: center;
+background-color: rgba(256, 256, 256, 50%);
+}
+
+h1 {
+    font: bold 1.5em Georgia, serif;
+    text-shadow: .05em .05em .1em lightslategray;
+    color: rgb(107,142,35)
+}
+
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    text-align: center;
+    color: rgb(107,142,35);
+}
+
+dt {
+    font-weight: bold;
+    color: #cd5c5c;
+}
+strong {
+    font-style: italic;
+    color: orange;
+}  
+
+.strong1{
+    font-weight: bold;
+}
+
+#info p {
+    font-style: italic;
+}
+
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+  }
+
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: gray;
+}
+
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
+small{
+    color: red;
+}
